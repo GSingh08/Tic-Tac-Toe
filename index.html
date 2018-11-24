@@ -8,26 +8,28 @@
 
   </head>
   <h1>Tic Tac Toe</h1>
-  <body>
+  
+  <body onload="letThemKnow();">
+    <div id="message">It's Your Turn</div>
         <div class = 'entire-grid'>
 
             <table class = 'grid'>
-                <tr class = 'row-one'>
-                  <td class = 'box' id ='1' value =' '></td>
-                  <td class = 'box' id ='2' value =' '></td>
-                  <td class = 'box' id ='3' value =' '></td>
+                <tr>
+                  <td class = 'box' onclick='nextMove(this);'></td>
+                  <td class = 'box' onclick='nextMove(this);'></td>
+                  <td class = 'box' onclick='nextMove(this);'></td>
                 </tr>
 
-                <tr class = 'row-two'>
-                  <td class = 'box' id ='4' value =' '></td>
-                  <td class = 'box' id ='5' value =' '></td>
-                  <td class = 'box' id ='6' value =' '></td>
+                <tr>
+                  <td class = 'box' onclick='nextMove(this);'></td>
+                  <td class = 'box' onclick='nextMove(this);'></td>
+                  <td class = 'box' onclick='nextMove(this);'></td>
                 </tr>
 
-                <tr class = 'row-three'>
-                  <td class = 'box' id ='7' value =' '></td>
-                  <td class = 'box' id ='8' value =' '></td>
-                  <td class = 'box' id ='9' value =' '></td>
+                <tr>
+                  <td class = 'box' onclick='nextMove(this);'></td>
+                  <td class = 'box' onclick='nextMove(this);'></td>
+                  <td class = 'box' onclick='nextMove(this);'></td>
                 </tr>
         </div>
   <button>Lets Play Again</button>
